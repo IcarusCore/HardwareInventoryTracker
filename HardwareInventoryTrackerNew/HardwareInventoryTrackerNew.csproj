@@ -8,9 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>inventory.ico</ApplicationIcon>
     <Authors>Michael Jolley</Authors>
-    <Company>SC Department of Motor Vehicles</Company>
+    <Company> Company Name Here </Company>
     <Description>A individual user hardware tracking app</Description>
-    <Copyright>Copyright © 2025 South Carolina DMV</Copyright>
+    <Copyright>Copyright ©</Copyright>
     <Version>1.1.9</Version>
     <AssemblyVersion>1.1.9</AssemblyVersion>
     <FileVersion>1.1.9</FileVersion>

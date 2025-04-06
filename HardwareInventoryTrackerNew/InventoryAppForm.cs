@@ -550,7 +550,7 @@ namespace HardwareInventoryTrackerNew
         {
             try
             {
-                string versionFilePath = @"\\dmvphx\scdmv\Departments\Desktop Team\Scripts_Forms\7. Asset_Tracking\Updater\latest_version.txt";
+                string versionFilePath = @"\\Server\File\Path\latest_version.txt";
                 string latestVersion = File.ReadAllText(versionFilePath).Trim();
 
                 Version current = new Version(AppInfo.CurrentVersion);

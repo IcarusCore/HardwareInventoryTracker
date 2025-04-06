@@ -21,7 +21,7 @@ namespace MyAppUpdater
 
             // 1. Wait for old process to exit
             //    (Optionally, you could pass the process ID or name to kill or wait)
-            Thread.Sleep(3000); // A simple wait, or do more robust checking.
+            Thread.Sleep(3000); // A simple wait.
 
             try
             {
