@@ -1,0 +1,37 @@
+Hello and Welcome! 
+
+NEW and IMPROVED Inventory Management App. 
+**Now using C# and SQLite database for speed and better efficiency!
+
+Below we will cover some basics to explain the form's functionality and how it operates.
+
+1. Functionality:
+	a. If you have a Transfer Sheet with multiple items you can enter them in all at one time!
+Enter the information in a format like this: S101, S102, S103 -Be sure there is not another comma at the end, or it will create a line for the blank space. You may use this format in the following fields:
+Asset Tag, Description, and Serial Number.
+*** If you use the comma in those fields there MUST be equal Commas in each of the other fields: Asset Tag, Description, and Serial Number. ***
+	b. This function is limited to items from a SINGLE transfer sheet. 
+
+2. Function Buttons:
+   - Choose Color Theme:
+		> This is a dropdown menu to choose the color theme you want for your app. (Requests can be made for other colors themes.)
+   - Update App:
+		> Button to update the app when edits/corrections are made. (This prevents the developer from needing to update the EXE file on each individual users PC)
+   - Add Entry:
+		> Button is like it sounds it saves everything on the form.
+   - Batch Add:
+		> Button is like it sounds it saves everything on the form, it updates all data as well so no more multiple button presses and multiple entries!
+   - Update:
+		> When you select or search for an Item and make changes the update button will update the entry.
+   - Delete:
+		> This allows you to delete A SELECTED value from the display window.
+   - Search:
+		> This function searches both databases and outputs the data to the form. No need to do multiple individual searches, you can search for multiple asset tags or serial numbers at once!   
+   - Reset Form:
+		> Clears all form fields.
+   - Refresh:
+		> This refreshes the asset window, helps when a search has been ran to return the display window to its prior view.
+   - Export/Import CSV:
+		> This allows you to export your data to a csv file or even import from a csv file into your database.
+   - Update Database:
+		> This takes the most recent database made by inventory personnel and updates the data file used in the form saved locally to increase speed and prevent connection issues.
